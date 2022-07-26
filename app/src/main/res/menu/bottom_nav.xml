@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_credit_card_"
+        android:id="@+id/credit_card"
+        android:title="Cartões"/>
+
+    <item android:icon="@drawable/icone_pix_svg"
+        android:id="@+id/icon_pix"
+        android:title="Pix"/>
+
+    <item android:id="@+id/place_holder"
+        android:checkable="false"
+        android:title=""/>
+
+    <item android:icon="@drawable/ic_icon_invest_svg"
+        android:title="Investir"
+        android:id="icon_invest"
+        />
+    <item android:icon="@drawable/ic_icon_sino_svg"
+        android:title="Notificações"
+        android:id="icon_notificacao"
+        />
+</menu>
