@@ -9,8 +9,11 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <include
-            layout=""
+            layout="@layout/tela_cartao"
+            />
+
 
     </androidx.core.widget.NestedScrollView>
 
@@ -35,9 +38,10 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_icone_banch_svg"
+        android:src="@drawable/ic_icon_cadeira"
         app:layout_anchor="@id/bottom_appbar"
-        app:maxImageSize="45dp"
+        app:maxImageSize="40dp"
+        android:backgroundTint="@color/black"
 
         />
 
