@@ -3,14 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/background_button.xml" value="0.108" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/background_rounded.xml" value="0.1435" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/empty_backgroung.xml" value="0.1" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_credit_card_.xml" value="0.1255" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_celular_svg.xml" value="0.108" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_codigo_barra_svg.xml" value="0.1" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_compras_svg.xml" value="0.1245" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_copy_svg.xml" value="0.1605" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_depositar_svg.xml" value="0.1245" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_goals_svg.xml" value="0.1245" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_transfer_svg.xml" value="0.1245" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icone_banch_svg.xml" value="0.1045" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_home.xml" value="0.133" />
-        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/tela_cartao.xml" value="0.33" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/activity_main.xml" value="1.0" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/partial_action.xml" value="0.25" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/tela_cartao.xml" value="0.9" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
       </map>
     </option>

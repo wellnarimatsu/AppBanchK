@@ -10,9 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <include
-            layout="@layout/tela_cartao"
-            />
+        <include layout="@layout/tela_cartao" />
 
 
     </androidx.core.widget.NestedScrollView>

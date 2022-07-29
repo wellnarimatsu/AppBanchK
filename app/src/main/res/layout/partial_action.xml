@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btn_pagamento"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/background_button"
+
+        android:src="@drawable/ic_icon_codigo_barra_svg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagamento"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_pagamento"
+        app:layout_constraintStart_toStartOf="@id/btn_pagamento"
+        app:layout_constraintTop_toBottomOf="@id/btn_pagamento" />
+
+    <ImageButton
+        android:id="@+id/btn_transf"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/background_button"
+        android:src="@drawable/ic_icon_transfer_svg"
+
+
+        app:layout_constraintStart_toEndOf="@id/btn_pagamento"
+        app:layout_constraintTop_toTopOf="@id/btn_pagamento" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transferência"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_transf"
+        app:layout_constraintStart_toStartOf="@id/btn_transf"
+        app:layout_constraintTop_toBottomOf="@id/btn_transf" />
+
+
+    <ImageButton
+        android:id="@+id/btn_recarga"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/background_button"
+        android:src="@drawable/ic_icon_celular_svg"
+
+
+        app:layout_constraintStart_toEndOf="@id/btn_shop"
+        app:layout_constraintTop_toTopOf="@id/btn_shop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recarga"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_recarga"
+        app:layout_constraintStart_toStartOf="@id/btn_recarga"
+        app:layout_constraintTop_toBottomOf="@id/btn_recarga" />
+
+    <ImageButton
+        android:id="@+id/btn_shop"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/background_button"
+        android:src="@drawable/ic_icon_compras_svg"
+
+
+        app:layout_constraintStart_toEndOf="@id/btn_depositar"
+        app:layout_constraintTop_toTopOf="@id/btn_depositar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_shop"
+        app:layout_constraintStart_toStartOf="@id/btn_shop"
+        app:layout_constraintTop_toBottomOf="@id/btn_shop" />
+
+    <ImageButton
+        android:id="@+id/btn_depositar"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/background_button"
+        android:src="@drawable/ic_icon_depositar_svg"
+
+
+        app:layout_constraintStart_toEndOf="@id/btn_transf"
+        app:layout_constraintTop_toTopOf="@id/btn_transf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depósito"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_depositar"
+        app:layout_constraintStart_toStartOf="@id/btn_depositar"
+        app:layout_constraintTop_toBottomOf="@id/btn_depositar" />
+
+
+    <ImageButton
+        android:id="@+id/btn_goals"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_button"
+        android:src="@drawable/ic_icon_goals_svg"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_recarga"
+        app:layout_constraintTop_toTopOf="@id/btn_recarga" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metas"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_goals"
+        app:layout_constraintStart_toStartOf="@id/btn_goals"
+        app:layout_constraintTop_toBottomOf="@id/btn_goals" />
+</androidx.constraintlayout.widget.ConstraintLayout>
