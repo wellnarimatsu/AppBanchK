@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/background_button.xml" value="0.108" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/background_rounded.xml" value="0.1435" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/efeito_borda.xml" value="0.1335" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/efeito_borda_branca.xml" value="0.1285" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/empty_backgroung.xml" value="0.1" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_credit_card_.xml" value="0.1255" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/ic_icon_cadeira.xml" value="0.172" />
@@ -19,9 +21,11 @@
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_home.xml" value="0.133" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_visibleoff.xml" value="0.1" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_visibleon.xml" value="0.134" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/activity_goals.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/metas.xml" value="0.22" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/partial_action.xml" value="0.25" />
-        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/tela_cartao.xml" value="0.33" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/tela_cartao.xml" value="0.18731117824773413" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
       </map>
     </option>

@@ -1,78 +1,101 @@
 package br.com.appbanch_k
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import br.com.appbanch_k.databinding.ActivityMainBinding
-import br.com.appbanch_k.databinding.TelaCartaoBinding
+import android.widget.Button
+import android.widget.ImageButton
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    private val binding by lazy {
-        TelaCartaoBinding.inflate(layoutInflater)
-    }
+//    private val binding by lazy {
+//        TelaCartaoBinding.inflate(layoutInflater)
+//    }
 
+    private lateinit var btnShowHide: ImageView
+    private lateinit var visibleOff: ImageView
+    private lateinit var visibleOn: ImageView
+
+    private lateinit var txtValorSaldo: TextView
+    private lateinit var txtValorSaldoEscondido: TextView
+
+    private lateinit var btn_metas: ImageButton
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
 
-        binding.btnMostrarEsconderSaldo.setOnClickListener{
+        btn_metas = findViewById(R.id.btn_goals)
 
-           if (binding.visibleOff.visibility == View.VISIBLE && binding.textValorSaldo.visibility == View.VISIBLE &&
-               binding.visibleOn.visibility == View.INVISIBLE && binding.textValorSaldoEscondido.visibility == View.INVISIBLE){
+        btnShowHide = findViewById(R.id.btn_mostrar_esconder_saldo)
+        visibleOff = findViewById(R.id.visibleOff)
+        visibleOn = findViewById(R.id.visibleOn)
+        txtValorSaldo = findViewById(R.id.text_valor_saldo)
+        txtValorSaldoEscondido = findViewById(R.id.text_valor_saldo_escondido)
 
-               binding.textValorSaldo.visibility= View.INVISIBLE
-               binding.visibleOff.visibility= View.INVISIBLE
+        btn_metas.setOnClickListener {
+            val intent = Intent(this, ActivityGoals::class.java)
+            startActivity(intent)
+        }
 
-               binding.visibleOn.visibility = View.VISIBLE
-               binding.textValorSaldoEscondido.visibility = View.VISIBLE
-//
-//               if(binding.visibleOn.visibility == View.INVISIBLE && binding.textValorSaldoEscondido.visibility == View.INVISIBLE){
-//
-//                   binding.visibleOn.visibility = View.VISIBLE
-//                   binding.textValorSaldoEscondido.visibility = View.VISIBLE
-//
-//               }
+        btnShowHide.setOnClickListener {
 
+            if (visibleOff.visibility == View.VISIBLE && txtValorSaldo.visibility == View.VISIBLE &&
+                visibleOn.visibility == View.INVISIBLE && txtValorSaldoEscondido.visibility == View.INVISIBLE
+            ) {
 
-           }else{
+                txtValorSaldo.visibility = View.INVISIBLE
+                visibleOff.visibility = View.INVISIBLE
 
-               binding.textValorSaldo.visibility= View.VISIBLE
-               binding.visibleOff.visibility= View.VISIBLE
-
-               binding.visibleOn.visibility = View.INVISIBLE
-               binding.textValorSaldoEscondido.visibility = View.INVISIBLE
+                visibleOn.visibility = View.VISIBLE
+                txtValorSaldoEscondido.visibility = View.VISIBLE
 
 
-           }
+            } else {
 
-           }
+                txtValorSaldo.visibility = View.VISIBLE
+                visibleOff.visibility = View.VISIBLE
+
+                visibleOn.visibility = View.INVISIBLE
+                txtValorSaldoEscondido.visibility = View.INVISIBLE
 
 
-
-//            binding.visibleOff.visibility = View.INVISIBLE
-//            binding.visibleOn.visibility = View.VISIBLE
-//
-//            binding.textValorSaldo.visibility= View.INVISIBLE
-//            binding.textValorSaldoEscondido.visibility = View.VISIBLE
-
+            }
 
         }
 
 
     }
 
-//    fun showHide(view1 : View, view2: View){
+    private fun showAndHide() {
+//        if (binding.visibleOff.visibility == View.VISIBLE && binding.textValorSaldo.visibility == View.VISIBLE &&
+//            binding.visibleOn.visibility == View.INVISIBLE && binding.textValorSaldoEscondido.visibility == View.INVISIBLE
+//        ) {
 //
-//        if (view1.visibility == View.VISIBLE && view2.visibility == View.VISIBLE){
+//            binding.textValorSaldo.visibility = View.INVISIBLE
+//            binding.visibleOff.visibility = View.INVISIBLE
 //
-//            view1.visibility = View.INVISIBLE
-//            view2.visibility = View.INVISIBLE
-//        }else{
+//            binding.visibleOn.visibility = View.VISIBLE
+//            binding.textValorSaldoEscondido.visibility = View.VISIBLE
+//
+//
+//        } else {
+//
+//            binding.textValorSaldo.visibility = View.VISIBLE
+//            binding.visibleOff.visibility = View.VISIBLE
+//
+//            binding.visibleOn.visibility = View.INVISIBLE
+//            binding.textValorSaldoEscondido.visibility = View.INVISIBLE
 //
 //
 //        }
-//
-//    }
+    }
+
+
+}
+
+

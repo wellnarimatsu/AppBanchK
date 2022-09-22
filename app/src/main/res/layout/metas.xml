@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_metas_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="15dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/quideline_metas_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="15dp" />
+
+
+
+    <View
+        android:id="@+id/vbp_emergencia"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        app:layout_constraintStart_toEndOf="@id/guideline_metas_begin"
+        app:layout_constraintEnd_toStartOf="@id/quideline_metas_end"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/efeito_borda"
+        />
+    <View
+        android:id="@+id/vbb_emergencia"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintStart_toStartOf="@id/vbp_emergencia"
+        app:layout_constraintEnd_toEndOf="@id/vbp_emergencia"
+        app:layout_constraintTop_toTopOf="@id/vbp_emergencia"
+        app:layout_constraintBottom_toBottomOf="@id/vbp_emergencia"
+        android:background="@drawable/efeito_borda_branca"
+
+        />
+
+    <View
+        android:id="@+id/vbp_casa"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        app:layout_constraintStart_toEndOf="@id/guideline_metas_begin"
+        app:layout_constraintEnd_toStartOf="@id/quideline_metas_end"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/vbp_emergencia"
+        android:background="@drawable/efeito_borda"
+        />
+    <View
+        android:id="@+id/vbb_casa"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintStart_toStartOf="@id/vbp_casa"
+        app:layout_constraintEnd_toEndOf="@id/vbp_casa"
+        app:layout_constraintTop_toTopOf="@id/vbp_casa"
+        app:layout_constraintBottom_toBottomOf="@id/vbp_casa"
+        android:background="@drawable/efeito_borda_branca"
+
+        />
+
+    <View
+        android:id="@+id/vbp_carro"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        app:layout_constraintStart_toEndOf="@id/guideline_metas_begin"
+        app:layout_constraintEnd_toStartOf="@id/quideline_metas_end"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/vbp_casa"
+        android:background="@drawable/efeito_borda"
+        />
+    <View
+        android:id="@+id/vbb_carro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        app:layout_constraintStart_toStartOf="@id/vbp_carro"
+        app:layout_constraintEnd_toEndOf="@id/vbp_carro"
+        app:layout_constraintTop_toTopOf="@id/vbp_carro"
+        app:layout_constraintBottom_toBottomOf="@id/vbp_carro"
+        android:background="@drawable/efeito_borda_branca"
+
+        />
+
+    <View
+        android:id="@+id/vbp_business"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        app:layout_constraintStart_toEndOf="@id/guideline_metas_begin"
+        app:layout_constraintEnd_toStartOf="@id/quideline_metas_end"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/vbp_carro"
+        android:background="@drawable/efeito_borda"
+        />
+    <View
+        android:id="@+id/vbb_business"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        app:layout_constraintStart_toStartOf="@id/vbp_business"
+        app:layout_constraintEnd_toEndOf="@id/vbp_business"
+        app:layout_constraintTop_toTopOf="@id/vbp_business"
+        app:layout_constraintBottom_toBottomOf="@id/vbp_business"
+        android:background="@drawable/efeito_borda_branca"
+
+        />
+
+
+    <View
+        android:id="@+id/vbp_poderCompra"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        app:layout_constraintStart_toEndOf="@id/guideline_metas_begin"
+        app:layout_constraintEnd_toStartOf="@id/quideline_metas_end"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/vbp_business"
+        android:background="@drawable/efeito_borda"
+        />
+    <View
+        android:id="@+id/vbb_poderCompra"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        app:layout_constraintStart_toStartOf="@id/vbp_poderCompra"
+        app:layout_constraintEnd_toEndOf="@id/vbp_poderCompra"
+        app:layout_constraintTop_toTopOf="@id/vbp_poderCompra"
+        app:layout_constraintBottom_toBottomOf="@id/vbp_poderCompra"
+        android:background="@drawable/efeito_borda_branca"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
