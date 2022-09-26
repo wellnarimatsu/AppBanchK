@@ -24,26 +24,88 @@
     <View
         android:id="@+id/vbp_emergencia"
         android:layout_width="0dp"
-        android:layout_height="180dp"
+        android:layout_height="150dp"
         app:layout_constraintStart_toEndOf="@id/guideline_metas_begin"
         app:layout_constraintEnd_toStartOf="@id/quideline_metas_end"
         android:layout_marginTop="15dp"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/efeito_borda"
         />
+
     <View
         android:id="@+id/vbb_emergencia"
         android:layout_width="0dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        app:layout_constraintStart_toStartOf="@id/vbp_emergencia"
-        app:layout_constraintEnd_toEndOf="@id/vbp_emergencia"
-        app:layout_constraintTop_toTopOf="@id/vbp_emergencia"
-        app:layout_constraintBottom_toBottomOf="@id/vbp_emergencia"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
         android:background="@drawable/efeito_borda_branca"
+        app:layout_constraintBottom_toBottomOf="@id/vbp_emergencia"
+        app:layout_constraintEnd_toEndOf="@id/vbp_emergencia"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@id/vbp_emergencia"
 
-        />
+        app:layout_constraintTop_toTopOf="@id/vbp_emergencia"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/text_meta_reserva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserva de Emergência"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintStart_toStartOf="@+id/guideline_metas_begin"
+        app:layout_constraintTop_toTopOf="@+id/vbp_emergencia" />
+
+    <TextView
+        android:id="@+id/emergencia_meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meta : R$ 30.000,00"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/text_meta_reserva"
+        app:layout_constraintTop_toBottomOf="@+id/text_meta_reserva" />
+
+    <TextView
+        android:id="@+id/emergencia_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Investido : R$ 12.000,00"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/emergencia_meta"
+        app:layout_constraintTop_toBottomOf="@+id/emergencia_meta" />
+
+    <TextView
+        android:id="@+id/emergencia_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Investimento : Tesouro SELIC"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/emergencia_valor"
+        app:layout_constraintTop_toBottomOf="@+id/emergencia_valor" />
+
+    <TextView
+        android:id="@+id/emergencia_rendimento_liq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rend Liq : R$ 2.880,00 | 24%"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/emergencia_tipo"
+        app:layout_constraintTop_toBottomOf="@+id/emergencia_tipo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total : R$ 14.880,00"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/emergencia_rendimento_liq"
+        app:layout_constraintTop_toBottomOf="@+id/emergencia_rendimento_liq" />
 
     <View
         android:id="@+id/vbp_casa"
@@ -58,9 +120,8 @@
     <View
         android:id="@+id/vbb_casa"
         android:layout_width="0dp"
-        android:layout_height="170dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
         app:layout_constraintStart_toStartOf="@id/vbp_casa"
         app:layout_constraintEnd_toEndOf="@id/vbp_casa"
         app:layout_constraintTop_toTopOf="@id/vbp_casa"
