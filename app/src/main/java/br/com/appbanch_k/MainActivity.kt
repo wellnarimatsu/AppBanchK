@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        title="BanchK"
+
         btn_metas = findViewById(R.id.btn_goals)
 
         btnShowHide = findViewById(R.id.btn_mostrar_esconder_saldo)

@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <include layout="@layout/tela_cartao" />
 
@@ -43,6 +44,7 @@
         android:backgroundTint="@color/black"
 
         />
+
 
 
 

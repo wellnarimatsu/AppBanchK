@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_extrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Histórico"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:fontFamily="@font/alata"
+        />
+
+    <ImageView
+        android:id="@+id/icon_pix_extrato"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:src="@drawable/icone_pix_svg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_extrato"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_pix1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Pix recebido"
+        app:layout_constraintBottom_toBottomOf="@id/icon_pix_extrato"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toEndOf="@id/icon_pix_extrato"
+        app:layout_constraintTop_toTopOf="@id/icon_pix_extrato" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22/10"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_pix1"
+        android:textSize="12sp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/valor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="R$ 150,00"
+        android:textColor="@color/green"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/txt_pix1"
+        app:layout_constraintTop_toBottomOf="@id/txt_pix1" />
+    <TextView
+        android:id="@+id/nome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wellison Sadao Narimatsu"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/valor1"
+        app:layout_constraintStart_toStartOf="@id/valor1"
+
+/>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/nome1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"/>
+
+
+<!--    ITEM HISTORICO 2-->
+
+    <ImageView
+        android:id="@+id/icon_pix_extrato2"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:src="@drawable/icone_pix_svg"
+        app:layout_constraintStart_toStartOf="@id/icon_pix_extrato"
+        app:layout_constraintTop_toBottomOf="@id/line1"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_pix2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Pix Enviado"
+        app:layout_constraintBottom_toBottomOf="@id/icon_pix_extrato2"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toEndOf="@id/icon_pix_extrato2"
+        app:layout_constraintTop_toTopOf="@id/icon_pix_extrato2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/10"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_pix2"
+        android:textSize="12sp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/valor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="-R$ 500,00"
+        android:textColor="@color/red"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/txt_pix2"
+        app:layout_constraintTop_toBottomOf="@id/txt_pix2" />
+    <TextView
+        android:id="@+id/nome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carla Barbosa"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/valor2"
+        app:layout_constraintStart_toStartOf="@id/valor2"
+
+        />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/nome2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"/>
+
+
+<!--    ITEM HISTORICO 3-->
+
+    <ImageView
+        android:id="@+id/icon_pix_extrato3"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:src="@drawable/icone_pix_svg"
+        app:layout_constraintStart_toStartOf="@id/icon_pix_extrato"
+        app:layout_constraintTop_toBottomOf="@id/line2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_pix3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Pix Enviado"
+        app:layout_constraintBottom_toBottomOf="@id/icon_pix_extrato3"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toEndOf="@id/icon_pix_extrato3"
+        app:layout_constraintTop_toTopOf="@id/icon_pix_extrato3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/10"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_pix3"
+        android:textSize="12sp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/valor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="-R$ 200,00"
+        android:textColor="@color/red"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/txt_pix3"
+        app:layout_constraintTop_toBottomOf="@id/txt_pix3" />
+    <TextView
+        android:id="@+id/nome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luciano Luiz da Silva"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/valor3"
+        app:layout_constraintStart_toStartOf="@id/valor3"
+
+        />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/nome3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <!--    ITEM HISTORICO 4-->
+
+    <ImageView
+        android:id="@+id/icon_pix_extrato4"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_pagamento_efetuado_svg"
+        app:layout_constraintStart_toStartOf="@id/icon_pix_extrato"
+        app:layout_constraintTop_toBottomOf="@id/line3" />
+
+    <TextView
+        android:id="@+id/txt_pix4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Pagamento Efetuado"
+        app:layout_constraintBottom_toBottomOf="@id/icon_pix_extrato4"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toEndOf="@id/icon_pix_extrato4"
+        app:layout_constraintTop_toTopOf="@id/icon_pix_extrato4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29/09"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_pix4"
+        android:textSize="12sp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/valor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="-R$ 150,00"
+        android:textColor="@color/red"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/txt_pix4"
+        app:layout_constraintTop_toBottomOf="@id/txt_pix4" />
+    <TextView
+        android:id="@+id/nome4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internet Telecom"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/valor4"
+        app:layout_constraintStart_toStartOf="@id/valor4"
+
+        />
+
+    <View
+        android:id="@+id/line4"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/nome4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <!--    ITEM HISTORICO 5-->
+
+    <ImageView
+        android:id="@+id/icon_pix_extrato5"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_pag_trans_efetuado"
+        app:layout_constraintStart_toStartOf="@id/icon_pix_extrato"
+        app:layout_constraintTop_toBottomOf="@id/line4" />
+
+    <TextView
+        android:id="@+id/txt_pix5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Transferência Recebida"
+        app:layout_constraintBottom_toBottomOf="@id/icon_pix_extrato5"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toEndOf="@id/icon_pix_extrato5"
+        app:layout_constraintTop_toTopOf="@id/icon_pix_extrato5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25/09"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_pix5"
+        android:textSize="12sp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/valor5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="R$ 7.000,00"
+        android:textColor="@color/green"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/txt_pix5"
+        app:layout_constraintTop_toBottomOf="@id/txt_pix5" />
+    <TextView
+        android:id="@+id/nome5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dev Company"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/valor5"
+        app:layout_constraintStart_toStartOf="@id/valor5"
+
+        />
+
+    <View
+        android:id="@+id/line5"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/nome5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <!--    ITEM HISTORICO 5-->
+
+    <ImageView
+        android:id="@+id/icon_pix_extrato6"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_credit_card_"
+
+        app:layout_constraintStart_toStartOf="@id/icon_pix_extrato"
+        app:layout_constraintTop_toBottomOf="@id/line5" />
+
+    <TextView
+        android:id="@+id/txt_pix6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Compra no crédito"
+        app:layout_constraintBottom_toBottomOf="@id/icon_pix_extrato6"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toEndOf="@id/icon_pix_extrato6"
+        app:layout_constraintTop_toTopOf="@id/icon_pix_extrato6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05/09"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_pix6"
+        android:textSize="12sp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/valor6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="-R$ 250,00"
+        android:textColor="@color/red"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/txt_pix6"
+        app:layout_constraintTop_toBottomOf="@id/txt_pix6" />
+    <TextView
+        android:id="@+id/nome6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercado 7 anões"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/valor6"
+        app:layout_constraintStart_toStartOf="@id/valor6"
+
+        />
+
+    <View
+        android:id="@+id/line6"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        app:layout_constraintTop_toBottomOf="@id/nome6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/line6"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="2dp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
