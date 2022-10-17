@@ -21,13 +21,16 @@
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_home.xml" value="0.133" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_visibleoff.xml" value="0.1" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/icon_visibleon.xml" value="0.134" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/drawable/splash_bg.xml" value="0.126" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/activity_goals.xml" value="0.25" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/historico.xml" value="0.33" />
-        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/metas.xml" value="0.33" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/metas.xml" value="0.25" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/partial_action.xml" value="0.25" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/layout/tela_cartao.xml" value="0.22" />
         <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/welli/Downloads/AppBanch_K/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
