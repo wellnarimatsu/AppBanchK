@@ -41,10 +41,10 @@ class MainActivity : AppCompatActivity() {
         txtValorSaldo = findViewById(R.id.text_valor_saldo)
         txtValorSaldoEscondido = findViewById(R.id.text_valor_saldo_escondido)
 
-        btn_metas.setOnClickListener {
-            val intent = Intent(this, ActivityGoals::class.java)
-            startActivity(intent)
-        }
+//        btn_metas.setOnClickListener {
+//            val intent = Intent(this, ActivityGoals::class.java)
+//            startActivity(intent)
+//        }
 
         btnShowHide.setOnClickListener {
 

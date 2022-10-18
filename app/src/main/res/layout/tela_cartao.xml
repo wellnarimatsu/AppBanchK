@@ -36,7 +36,7 @@
         android:id="@+id/text_valor_saldo"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="R$ 176.511,19"
+        android:text="R$ 276.511,19"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:visibility="visible"

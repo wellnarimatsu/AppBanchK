@@ -6,7 +6,7 @@
 
         <bitmap
             android:gravity="center"
-            android:src="@drawable/splash_screen_banchk"/>
+            android:src="@drawable/splash_screen_banchk2"/>
     </item>
 
 </layer-list>
