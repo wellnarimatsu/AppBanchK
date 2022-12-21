@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
 //            startActivity(intent)
 //        }
 
+
         btnShowHide.setOnClickListener {
 
             if (visibleOff.visibility == View.VISIBLE && txtValorSaldo.visibility == View.VISIBLE &&
@@ -76,27 +77,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showAndHide() {
-//        if (binding.visibleOff.visibility == View.VISIBLE && binding.textValorSaldo.visibility == View.VISIBLE &&
-//            binding.visibleOn.visibility == View.INVISIBLE && binding.textValorSaldoEscondido.visibility == View.INVISIBLE
-//        ) {
-//
-//            binding.textValorSaldo.visibility = View.INVISIBLE
-//            binding.visibleOff.visibility = View.INVISIBLE
-//
-//            binding.visibleOn.visibility = View.VISIBLE
-//            binding.textValorSaldoEscondido.visibility = View.VISIBLE
-//
-//
-//        } else {
-//
-//            binding.textValorSaldo.visibility = View.VISIBLE
-//            binding.visibleOff.visibility = View.VISIBLE
-//
-//            binding.visibleOn.visibility = View.INVISIBLE
-//            binding.textValorSaldoEscondido.visibility = View.INVISIBLE
-//
-//
-//        }
+        if (binding.visibleOff.visibility == View.VISIBLE && binding.textValorSaldo.visibility == View.VISIBLE &&
+            binding.visibleOn.visibility == View.INVISIBLE && binding.textValorSaldoEscondido.visibility == View.INVISIBLE
+        ) {
+
+            binding.textValorSaldo.visibility = View.INVISIBLE
+            binding.visibleOff.visibility = View.INVISIBLE
+
+            binding.visibleOn.visibility = View.VISIBLE
+            binding.textValorSaldoEscondido.visibility = View.VISIBLE
+
+
+        } else {
+
+            binding.textValorSaldo.visibility = View.VISIBLE
+            binding.visibleOff.visibility = View.VISIBLE
+
+            binding.visibleOn.visibility = View.INVISIBLE
+            binding.textValorSaldoEscondido.visibility = View.INVISIBLE
+
+
+        }
     }
 
 
